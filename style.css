@@ -124,6 +124,49 @@ body{
     border-radius: 30px;
 }
 
+/* Meet out team styles */
+.meet-our-team{
+    max-width: 1050px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.meet-our-team-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.meet-out-team-description{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.meet-our-team-container{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.meet-our-team-container img{
+    height: 270px;
+    width: 320px;
+    border-radius: 18px;
+}
+.meet-our-team-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+}
+
+.member-name{
+   margin-bottom: 3px;
+}
+.member-description{
+    margin-top: -85px;
+}
+
 /* Responsive styles */
 
 @media screen and (max-width: 576px){
@@ -159,6 +202,11 @@ body{
         height: 50px;
         width: 280px;
         border-radius: 30px;
+    }
+
+
+    .meet-our-team-container{
+        grid-template-columns: repeat(1,1fr);
     }
 
 

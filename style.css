@@ -6,5 +6,91 @@
   font-style: normal;
 }
 
+body{
+    background-color: black;
+}
+
 /* Some common styles */
+
+.bold-color{
+    color: #FFFFFF;
+}
+
+.small-paragraph-color{
+    color: rgba(255, 255, 255, 0.5);
+ }
+
+
+
+ .display-flex{
+    display: flex;
+ }
+
+ 
+
+ /* Change Your Habit styles */
+
+ .change-habit-container{
+   background-color: black;
+   max-width: 1045px;
+   margin: 0 auto;
+ }
+
+ .change-habit-container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .change-habit-container img{
+    border-radius: 50%;
+ }
+
+ .change-habit-title{
+   font-size: 48px;
+   font-weight: 900;
+   margin-bottom: 14px;
+ }
+
+ .change-habit-description{
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+
+
+.change-habit-img-container1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.change-habit-img-container2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.change-habit-img-container3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.change-habit-img-container4{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 576px){
+    .change-habit-container,
+    .change-habit-image-container{
+        flex-direction: column;
+    }
+}
 

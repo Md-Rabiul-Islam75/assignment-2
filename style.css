@@ -146,6 +146,7 @@ body{
 
 .meet-our-team-container{
     background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 40px;
 }
 
 
@@ -167,12 +168,72 @@ body{
     margin-top: -85px;
 }
 
+
+/* footer part styles */
+
+.footer{
+    /* max-width: 1050px; */
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+   
+}
+
+.footer1{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.primary-title{
+  font-size: 70px;
+  font-weight: 800;  
+  margin-bottom: 20px;
+  color: rgb(230, 83, 60);
+}
+
+.footer-description{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-part-1{
+    width: 410px;
+}
+
+.get-started{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.last-section{
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+.welcome{
+    text-align: center;
+}
+
+hr{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.welcome{
+    margin-top: 30px;
+}
+
+.footer2{
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
+}
+
 /* Responsive styles */
 
 @media screen and (max-width: 576px){
     .change-habit-container,
     .change-habit-image-container,
-    .run-extra-mile-container{
+    .run-extra-mile-container,
+    .footer1{
         flex-direction: column;
         /* width: calc(100% - 60px); */
         /* margin-top: 40px;

@@ -83,14 +83,84 @@ body{
     text-align: center;
 }
 
+/* Run extra mile part styles */
 
+.run-extra-mile-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 40px 50px;
+    justify-content: space-between; 
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+}
+
+.run-extra-mile-container1{
+    height: 280px;
+    width: 440px;
+}
+
+.run-extra-mile-container1-title{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.run-extra-mile-container1-description{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.run-extra-mile-container2>img{
+    height: 310px;
+    width: 365px;
+    border-radius: 18px;
+}
+
+.primary-btn{
+    background-color: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 70px;
+    border-radius: 30px;
+}
 
 /* Responsive styles */
 
 @media screen and (max-width: 576px){
     .change-habit-container,
-    .change-habit-image-container{
+    .change-habit-image-container,
+    .run-extra-mile-container{
         flex-direction: column;
+        /* width: calc(100% - 60px); */
+        /* margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px; */
+        /* margin: 40px 30px; */
     }
+
+    .run-extra-mile-container1{
+        /* width: calc(100% - 60px); */
+        align-items: center;
+        text-align: center;
+        /* padding-left: 30px;
+        padding-right: 30px; */
+    }
+
+   
+
+    .run-extra-mile-container1-title{
+        font-weight: 900;
+        font-size: 32px;
+        margin: 0 auto;
+    }
+
+
+    .run-extra-mile-container1>.primary-btn{
+        height: 50px;
+        width: 280px;
+        border-radius: 30px;
+    }
+
+
 }
 

@@ -67,9 +67,14 @@ body{
 
  /* Banner part styles */
 
+ .header{
+    max-width: 1440px;
+ }
+
 .banner-container-1{
     max-width: 520px;
     /* margin-left: 200px; */
+    margin-right: 70px;
 }
  .banner-container-1-title{
     font-size: 48px;
@@ -97,6 +102,58 @@ body{
     background-color: black;
     border: 1px solid white;
     border-radius: 40px;
+ }
+
+ .banner{
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 50px;
+
+    margin-bottom: 90px;
+ }
+
+ .banner-container-2 img{
+    width: 350px;
+    height: 580px;
+
+    z-index: 2;
+ }
+
+
+ .btn1{
+    width: 190px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: -160px;
+    margin-left: 185px;
+    padding: 10px 7px 10px 5px;
+    z-index: 1;
+ }
+
+
+ .btn2{
+    width: 190px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 12px;
+    z-index: 1;
+
+    margin-left: -165px;
+    margin-top: -110px;
+ }
+
+
+ .btn2 .circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
  }
 
  /* Change Your Habit styles */
@@ -304,7 +361,8 @@ hr{
     .change-habit-container,
     .change-habit-image-container,
     .run-extra-mile-container,
-    .footer1{
+    .footer1,
+    .banner{
         flex-direction: column;
         /* width: calc(100% - 60px); */
         /* margin-top: 40px;
@@ -339,6 +397,22 @@ hr{
 
     .meet-our-team-container{
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .company-details{
+        display: none;
+    }
+
+    /* .banner{
+        margin-top: 40px;
+    } */
+
+    /* .nav-container{
+        margin-bottom: 50px;
+    } */
+
+    .banner-container-1{
+        margin-bottom: 40px;
     }
 
 

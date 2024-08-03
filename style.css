@@ -10,6 +10,7 @@ body{
     background-color: black;
 }
 
+
 /* Some common styles */
 
 .bold-color{
@@ -26,7 +27,77 @@ body{
     display: flex;
  }
 
- 
+
+
+
+ /* Header part styles */
+
+ .nav-container{
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .company-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    margin: 0px;
+ }
+
+ .details-list{
+    height: 38px;
+    width: 450px;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 4px;
+ }
+
+ .home{
+   background-color: rgb(230, 83, 60);
+   width: 50px;
+   height: 20px;
+   font-size: 18px;
+   font-weight: 600;
+   border-radius: 46px;
+   padding: 8px 20px;
+   text-align: center;
+   align-items: center;
+ }
+
+ /* Banner part styles */
+
+.banner-container-1{
+    max-width: 520px;
+    /* margin-left: 200px; */
+}
+ .banner-container-1-title{
+    font-size: 48px;
+    font-weight: 900px;
+ }
+
+ .banner-container-1-description{
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+ .join-club-button{
+    height: 50px;
+    width: 220px;
+    padding: 16px 40px 16px 40px;
+    background-color: rgb(230, 83, 60);
+    border: 1px solid white;
+    border-radius: 40px;
+ }
+
+ .download-app-button{
+    height: 50px;
+    width: 220px;
+    padding: 16px 40px 16px 40px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 40px;
+ }
 
  /* Change Your Habit styles */
 

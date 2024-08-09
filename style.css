@@ -252,6 +252,92 @@ body{
     border-radius: 30px;
 }
 
+
+/* Calculator part */
+
+.bmi-calculator{
+    max-width: 670px;
+    margin-left: 385px;
+}
+
+.bmi-calculator-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.bmi-calculator-description{
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+
+.bmi-calculator-chart{
+    max-width: 440px;
+    margin-left: 180px;
+}
+
+.bmi-calculator-chart-title{
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 900px;
+}
+
+.bmi-calculator-chart .table{
+    height: 210px;
+    width: 310px;
+    border-collapse: collapse;
+    
+}
+
+
+.calculate-your-bmi{
+    max-width: 570px;
+}
+
+td,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+}
+
+.bmi-calculator-container{
+    justify-content: space-evenly;
+    background-color: rgb(34, 34, 34);
+    padding-bottom: 50px;
+}
+
+.universal-margin{
+    margin-bottom: 10px;
+}
+
+.universal-height{
+    height: 45px;
+}
+
+.universal-width-border-radius{
+    border-radius: 8px;
+    width: 42%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.activity-factor{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+
+
+.calculate-btn{
+    height: 50px;
+    width: 220px;
+    border: 1px solid white;
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+}
+
+
+
 /* Meet out team styles */
 .meet-our-team{
     max-width: 1050px;
@@ -362,7 +448,8 @@ hr{
     .change-habit-image-container,
     .run-extra-mile-container,
     .footer1,
-    .banner{
+    .banner,
+    .bmi-calculator-container{
         flex-direction: column;
         /* width: calc(100% - 60px); */
         /* margin-top: 40px;

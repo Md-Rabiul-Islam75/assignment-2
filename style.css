@@ -258,6 +258,7 @@ body{
 .bmi-calculator{
     max-width: 670px;
     margin-left: 385px;
+    margin-bottom: 50px;
 }
 
 .bmi-calculator-title{
@@ -500,6 +501,12 @@ hr{
 
     .banner-container-1{
         margin-bottom: 40px;
+    }
+
+
+
+    .bmi-calculator, .bmi-calculator-chart{
+        margin: 0 auto;
     }
 
 
